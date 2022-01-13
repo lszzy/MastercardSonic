@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '11.0'
+use_frameworks!
+
+target 'MastercardSonic_Example' do
+  pod 'MastercardSonic', :path => '../'
+
+  target 'MastercardSonic_Tests' do
+    inherit! :search_paths
+  end
+end
