@@ -1,0 +1,2 @@
+# MastercardSonic
+Cocoapods for MastercardSonic
